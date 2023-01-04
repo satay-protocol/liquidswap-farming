@@ -1,0 +1,19 @@
+[package]
+name = 'satay-liquidswap-harvest'
+version = '1.0.0'
+
+[addresses]
+satay_liquidswap_harvest = "0xe3eaddfcc4d7436d26fef92ee39685ef176e3513dc736d116129ce055c07afac"
+
+[dependencies.satay]
+git = 'https://github.com/satay-protocol/satay-aptos'
+rev = 'main'
+
+[dependencies.Harvest]
+git = "https://github.com/pontem-network/harvest"
+rev = "main"
+
+[dependencies.LiquidswapRouterV2]
+git = 'https://github.com/pontem-network/liquidswap'
+rev = 'v0.4.3'
+subdir = './liquidswap_router_v2'
